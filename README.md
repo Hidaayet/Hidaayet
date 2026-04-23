@@ -1,16 +1,18 @@
-## Hi there 👋
+## Hi I'm Hideya 👋
 
 <!--
-**Hidaayet/Hidaayet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a [student/researcher] working at the intersection of 
+deep learning and biomedical science.
 
-Here are some ideas to get you started:
+## 🔬 What I'm building
+- Brain-computer interfaces (EEG motor imagery classification)
+- Medical imaging AI (diabetic retinopathy detection)
+- Drug discovery tools (GNN for drug-target interaction)
+- CRISPR off-target site prediction
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+## 🛠 Tools I use
+Python · PyTorch · Jupyter · EfficientNet · Transformers
+
+## 📫 Reach me at
+[enghideya@gmail.com]
 -->
