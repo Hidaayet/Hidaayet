@@ -1,7 +1,6 @@
 ## Hi I'm Hideya 👋
 
-<!--
-I'm a [student/researcher] working at the intersection of 
+I'm a BME working at the intersection of 
 deep learning and biomedical science.
 
 ## 🔬 What I'm building
@@ -15,4 +14,4 @@ Python · PyTorch · Jupyter · EfficientNet · Transformers
 
 ## 📫 Reach me at
 [enghideya@gmail.com]
--->
+
