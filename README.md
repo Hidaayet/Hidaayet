@@ -35,7 +35,7 @@ Non-invasive risk assessment using questionnaire + blood biomarkers. AUC 0.926 o
 - Twitter: [link]
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hidaayet&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=radical)
 
 ## 📫 Reach me at
 [enghideya@gmail.com]
