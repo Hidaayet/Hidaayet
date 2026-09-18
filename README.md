@@ -13,15 +13,15 @@ EEG-based brain-computer interface for motor imagery classification. Achieved 72
 
 ### 👁️ Retinal Disease Detector
 EfficientNet-B3 for diabetic retinopathy detection. QWK 0.9053, deployed on HuggingFace.
-- [Live Demo](link) | [Repository](link)
+- [Live Demo](link) | [Repository](https://github.com/Hidaayet/retinal-disease-detector)
 
 ### 🧬 CRISPR Off-Target Predictor
 Transformer-based model for predicting off-target cleavage sites. AUC 0.9711.
-- [Repository](link)
+- [Repository](https://github.com/Hidaayet/drug-target-interaction-gnn)
 
 ### 🏥 Mouna - Breast Cancer Risk Assessment
 Non-invasive risk assessment using questionnaire + blood biomarkers. AUC 0.926 on 244K patients.
-- [Repository](link)
+- [Repository](https://github.com/Hidaayet/mouna-breast-cancer-risk)
 
 ## 🛠️ Tech Stack
 - **Deep Learning:** PyTorch, TensorFlow, EEGNet, EfficientNet, Transformers, GNN
