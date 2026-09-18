@@ -9,7 +9,7 @@
 
 ### 🧠 Motor Imagery BCI
 EEG-based brain-computer interface for motor imagery classification. Achieved 72.4% accuracy on BCI Competition IV dataset.
-- [Repository](https://github.com/Hidaayet/motor-imagery-bci) | [Paper PDF](file:///C:/Users/hidey/Downloads/Motor_Imagery_BCI_Report.pdf)
+- [Repository](https://github.com/Hidaayet/motor-imagery-bci) | [Paper PDF](https://github.com/Hidaayet/motor-imagery-bci/blob/main/docs/Motor_Imagery_BCI_Report.pdf)
 
 ### 👁️ Retinal Disease Detector
 EfficientNet-B3 for diabetic retinopathy detection. QWK 0.9053, deployed on HuggingFace.
