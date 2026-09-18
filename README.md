@@ -17,7 +17,7 @@ EfficientNet-B3 for diabetic retinopathy detection. QWK 0.9053, deployed on Hugg
 
 ### 🧬 CRISPR Off-Target Predictor
 Transformer-based model for predicting off-target cleavage sites. AUC 0.9711.
-- [Repository](https://github.com/Hidaayet/drug-target-interaction-gnn)
+- [Repository](https://github.com/Hidaayet/crispr-off-target-predictor)
 
 ### 🏥 Mouna - Breast Cancer Risk Assessment
 Non-invasive risk assessment using questionnaire + blood biomarkers. AUC 0.926 on 244K patients.
