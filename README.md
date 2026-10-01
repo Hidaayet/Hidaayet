@@ -1,6 +1,5 @@
-# Hidayet Yaakoubi
+#                                                                    Hidayet Yaakoubi
 
-Hidayet Yaakoubi
 
 Biomedical Engineering · Computational Methods · Medical Technology
 
