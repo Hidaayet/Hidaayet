@@ -31,7 +31,7 @@ Non-invasive risk assessment using questionnaire + blood biomarkers. AUC 0.926 o
 
 ## 📫 Connect
 - LinkedIn: https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391?utm_source=share_via&utm_content=profile&utm_medium=member_android
-- Email: enghideya@gmail.com (or better: hideya@domain.com)
+- Email: enghideya@gmail.com
 - Twitter: https://x.com/Hidayet_allah
 
 ## 📊 GitHub Stats
