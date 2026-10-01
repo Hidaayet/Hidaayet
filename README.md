@@ -2,7 +2,7 @@
 
 
 Biomedical Engineering · Computational Methods · Medical Technology
-
+---
 I am a biomedical engineering student interested in understanding how engineering can be used to investigate biological systems, interpret medical data, and build technologies for healthcare.
 
 My work sits at the intersection of biomedical engineering, computation, and research.
