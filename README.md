@@ -30,9 +30,9 @@ Non-invasive risk assessment using questionnaire + blood biomarkers. AUC 0.926 o
 - **Tools:** Jupyter, Git, Docker, HuggingFace
 
 ## 📫 Connect
-- LinkedIn: [link]
+- LinkedIn: https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391?utm_source=share_via&utm_content=profile&utm_medium=member_android
 - Email: enghideya@gmail.com (or better: hideya@domain.com)
-- Twitter: [link]
+- Twitter: https://x.com/Hidayet_allah
 
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=radical)
