@@ -1,6 +1,6 @@
 # Hidayet Allah Yaakoubi
 
-**Biomedical engineering student (expected 2027) · Medical imaging systems · AI for imaging · Device regulation & risk**
+**Biomedical engineering student (expected 2028) · Medical imaging systems · AI for imaging · Device regulation & risk**
 Tunis, Tunisia
 
 I focus on medical imaging systems: how the devices acquire images, what those images represent, and how they are processed and checked. During hospital and biomedical-maintenance internships (2024–2026) I worked with imaging equipment. On top of that I build AI models for medical images, and I have completed training in EU MDR, ISO 13485 and ISO 14971.
