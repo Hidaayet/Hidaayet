@@ -69,4 +69,4 @@ STM32 and embedded systems · biomedical instrumentation · digital filtering an
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/hidayet-allah-yaakoubi-5b1975391/) · [Email](mailto:enghideya@gmail.com)
