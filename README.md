@@ -1,32 +1,47 @@
-# Hidayet Allah Yaakoubi
 
-I build AI for medical images and work on imaging systems end to end.
+---
 
-Biomedical engineering student at ISTMT (expected 2028). I've worked with imaging equipment during hospital and biomedical-maintenance internships (2024–2026), build AI models for medical images, and have completed training in EU MDR, ISO 13485 and ISO 14971. I report results with the dataset, split and limitations next to the number.
+## Regulatory and quality training
 
-Currently based in Tunis, working on CT quality-assurance drift monitoring and a mini regulatory file for my retinal detector.
+Certificates of completion, SkillMed, September 2026:
 
-[Portfolio](https://hidaayet.github.io/Hidayet_Yaakoubi.github.io/) · [LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
+- EU MDR: Regulation (EU) 2017/745
+- ISO 13485:2016: Quality Management System for Medical Devices
+- ISO 14971:2019: Risk Management for Medical Devices
 
-## Projects
+These are training courses, not professional certifications. I am applying them to my own projects, starting with a mini regulatory file for the retinal detector (in progress).
 
-- **Retinal Disease Detector** — diabetic retinopathy grading (0–4) from fundus images, EfficientNet-B3 on APTOS 2019. QWK 0.905 · accuracy 83.6% (internal validation split). [Live demo](https://huggingface.co/spaces/hidayet-yaakoubi/retinal-disease-detector) · [Repo](https://github.com/Hidaayet/retinal-disease-detector)
-- **CT Organ Reconstruction** — HU thresholding → morphological cleanup → marching cubes → STL meshes of bone, lungs, liver, kidneys. Pipeline demo on synthetic CT. [Repo](https://github.com/Hidaayet/ct-organ-reconstruction)
-- **Motor Imagery BCI** — EEGNet in PyTorch on BCI Competition IV 2a. 63.8% accuracy, κ 0.519 (single subject). [Repo](https://github.com/Hidaayet/motor-imagery-bci)
-- **CRISPR Off-Target Predictor** — transformer encoder on GUIDE-seq guide/site pairs. AUC 0.971. [Repo](https://github.com/Hidaayet/crispr-off-target-predictor)
-- **Drug–Target Interaction GNN** — Graph Attention Network on RDKit molecular graphs, ChEMBL / BindingDB. AUC 0.763. [Repo](https://github.com/Hidaayet/drug-target-interaction-gnn)
-- **EMG-controlled robotic hand** — wearable EMG armband wirelessly driving a 3D-printed hand in real time. Prototype, repo private.
+---
 
-## Stack
+## Other work
 
-Python · PyTorch · PyTorch Geometric · scikit-learn · NumPy · SciPy · RDKit · DICOM · SimpleITK · OpenCV · scikit-image · MNE · Flask · Docker · Git · MATLAB · STM32
+| Project | What it shows | Notes |
+|---|---|---|
+| **EMG-controlled robotic hand** | A wearable armband reads forearm muscle signals (EMG) and wirelessly controls a 3D-printed robotic hand in real time. Sensors, signal acquisition and wireless control. | Prototype. Repository is private while it is being cleaned up. |
+| [**Motor Imagery BCI**](https://github.com/Hidaayet/motor-imagery-bci) | EEG preprocessing (MNE) and EEGNet in PyTorch on BCI Competition IV Dataset 2a. | Single subject (A01), stratified 80/20 split (230 train / 58 test). **Final test accuracy 63.8%, κ 0.519.** A peak of 72.4% was recorded on the test set during training, so it is selection-biased and not the headline. Known limitations: normalization computed before the split (leakage), no validation set, one subject. Research prototype, not under active development. |
+| [**CRISPR Off-Target Predictor**](https://github.com/Hidaayet/crispr-off-target-predictor) | Transformer encoder on guide/site sequence pairs, GUIDE-seq data. | AUC 0.9711, accuracy 96.5%. Train/test split, class balance and AUPRC: **[FILL IN BEFORE PUBLISHING]** |
+| [**Drug–Target Interaction GNN**](https://github.com/Hidaayet/drug-target-interaction-gnn) | Graph Attention Network on RDKit molecular graphs, ChEMBL / BindingDB. | AUC 0.7630. Exploratory. Data subset and split: **[FILL IN BEFORE PUBLISHING]** |
+
+---
+
+## Technical foundation
+
+**Used in the projects above**
+Python · PyTorch · PyTorch Geometric · MNE · OpenCV · scikit-image · scikit-learn · NumPy · SciPy · RDKit · DICOM · Matplotlib · Flask · Docker · Git · Jupyter · Hugging Face Spaces
+
+**Studied and used in university coursework and labs**
+STM32 and embedded systems · biomedical instrumentation · digital filtering and biomedical signal processing · MATLAB · SimpleITK
+
+---
 
 ## Background
 
-ISTMT — Engineer's degree in biomedical engineering, 2023–2028 · internships at CETMBI (2026), Hôpital Militaire de Tunis (2025), Centre des Grands Brûlés (2024) · UNESCO-SIGHT Ambassador 2026 · IEEE ISTMT
+- Higher Institute of Medical Technologies of Tunis (ISTMT): Engineer's degree in biomedical engineering, 2023 – expected 2027
+- Centre d'Etude Techniques de Maintenance Biomédicale et Hospitalière (Tunis): internship, June – October 2026
+- Hôpital Militaire Principal d'Instruction de Tunis: internship, June – July 2025
+- Centre de Traumatologie et des Grands Brûlés: internship, June – July 2024
+- UNESCO-SIGHT Ambassador 2026, IEEE ISTMT Student Branch
 
-Regulatory training, SkillMed 2026: EU MDR 2017/745 · ISO 13485 · ISO 14971 — applied to a mini regulatory file for the retinal detector (in progress).
+## Contact
 
-## Get in touch
-
-Building something at the intersection of medical imaging, AI and device regulation? Reach out: [enghideya@gmail.com](mailto:enghideya@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
