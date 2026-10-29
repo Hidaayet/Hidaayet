@@ -1,72 +1,37 @@
-# Hidayet Allah Yaakoubi
-
-**Biomedical engineering student (expected 2028) · Medical imaging systems · AI for imaging · Device regulation & risk**
-Tunis, Tunisia
-
-I focus on medical imaging systems: how the devices acquire images, what those images represent, and how they are processed and checked. During hospital and biomedical-maintenance internships (2024–2026) I worked with imaging equipment. On top of that I build AI models for medical images, and I have completed training in EU MDR, ISO 13485 and ISO 14971.
-
-I report results the way a reviewer would want them: the dataset, the split and the limitations sit next to the number.
-
+# I build AI for medical imaging
 ---
-
-## Imaging projects
-
-| Project | What it does | Result | Status |
-|---|---|---|---|
-| [**Retinal Disease Detector**](https://github.com/Hidaayet/retinal-disease-detector) · [Live demo](https://huggingface.co/spaces/hidayet-yaakoubi/retinal-disease-detector) | Grades diabetic retinopathy (0–4) from fundus images with EfficientNet-B3, trained on APTOS 2019 (3,662 images) | QWK **0.9053**, accuracy **83.6%** on an internal validation split | Complete, deployed |
-| [**CT Organ Reconstruction**](https://github.com/Hidaayet/ct-organ-reconstruction) | HU thresholding → morphological cleanup → marching cubes → STL meshes of bone, lungs, liver and kidneys | Pipeline demo on a synthetic CT volume; DICOM loading shown on real data | Complete (demo) |
-
-**In progress:** CT quality-assurance drift monitoring (repository not yet public).
-
-### How to read these numbers
-
-**Retinal Disease Detector.** 80/20 stratified split of APTOS 2019 (2,929 train / 733 validation, seed 42). There is no separate test set and no cross-validation, and the best epoch (13 of 15) is reported on that same validation split, so treat the scores as optimistic and not comparable to the competition's private leaderboard. The weakest class is severe DR (F1 0.36, n = 39). This is a research project, not a medical device, and it has not been clinically validated.
-
-**CT Organ Reconstruction.** The reconstruction runs on a synthetic volume with threshold-based segmentation. No segmentation accuracy is reported, so this demonstrates the pipeline and not a validated method.
-
+<p align="center">
+  <a href="https://hidaayet.github.io/Hidayet_Yaakoubi.github.io/"><img src="https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:enghideya@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 ---
+Hi, I'm Hidayet, a biomedical engineering student at ISTMT (expected 2028). I work on imaging systems end to end: how devices acquire images, what they represent, and how they are processed. I build AI models for medical images and have completed training in EU MDR, ISO 13485, and ISO 14971. 
 
-## Regulatory and quality training
-
-Certificates of completion, SkillMed, September 2026:
-
-- EU MDR: Regulation (EU) 2017/745
-- ISO 13485:2016: Quality Management System for Medical Devices
-- ISO 14971:2019: Risk Management for Medical Devices
-
-These are training courses, not professional certifications. I am applying them to my own projects, starting with a mini regulatory file for the retinal detector (in progress).
-
+Currently based in Tunis, working on CT quality-assurance drift monitoring and a mini regulatory file for my retinal detector.
 ---
+## Stack
 
-## Other work
-
-| Project | What it shows | Notes |
-|---|---|---|
-| **EMG-controlled robotic hand** | A wearable armband reads forearm muscle signals (EMG) and wirelessly controls a 3D-printed robotic hand in real time. Sensors, signal acquisition and wireless control. | Prototype. Repository is private while it is being cleaned up. |
-| [**Motor Imagery BCI**](https://github.com/Hidaayet/motor-imagery-bci) | EEG preprocessing (MNE) and EEGNet in PyTorch on BCI Competition IV Dataset 2a. | Single subject (A01), stratified 80/20 split (230 train / 58 test). **Final test accuracy 63.8%, κ 0.519.** A peak of 72.4% was recorded on the test set during training, so it is selection-biased and not the headline. Known limitations: normalization computed before the split (leakage), no validation set, one subject. Research prototype, not under active development. |
-| [**CRISPR Off-Target Predictor**](https://github.com/Hidaayet/crispr-off-target-predictor) | Transformer encoder on guide/site sequence pairs, GUIDE-seq data. | AUC 0.9711, accuracy 96.5%. Train/test split, class balance and AUPRC: **[FILL IN BEFORE PUBLISHING]** |
-| [**Drug–Target Interaction GNN**](https://github.com/Hidaayet/drug-target-interaction-gnn) | Graph Attention Network on RDKit molecular graphs, ChEMBL / BindingDB. | AUC 0.7630. Exploratory. Data subset and split: **[FILL IN BEFORE PUBLISHING]** |
-
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+</p>
 ---
+## Featured Projects
 
-## Technical foundation
-
-**Used in the projects above**
-Python · PyTorch · PyTorch Geometric · MNE · OpenCV · scikit-image · scikit-learn · NumPy · SciPy · RDKit · DICOM · Matplotlib · Flask · Docker · Git · Jupyter · Hugging Face Spaces
-
-**Studied and used in university coursework and labs**
-STM32 and embedded systems · biomedical instrumentation · digital filtering and biomedical signal processing · MATLAB · SimpleITK
-
+- **[Retinal Disease Detector](https://github.com/Hidaayet/retinal-disease-detector)** — Diabetic retinopathy grading (0–4) from fundus images, EfficientNet-B3. QWK 0.905 · accuracy 83.6% on an internal validation split. ([Live Demo](https://huggingface.co/spaces/hidayet-yaakoubi/retinal-disease-detector))
+- **[CT Organ Reconstruction](https://github.com/Hidaayet/ct-organ-reconstruction)** — HU thresholding → morphological cleanup → marching cubes → STL meshes of bone, lungs, liver, kidneys.
+- **[Motor Imagery BCI](https://github.com/Hidaayet/motor-imagery-bci)** — EEGNet in PyTorch on BCI Competition IV 2a. 63.8% accuracy, κ 0.519 (single subject).
+- **[CRISPR Off-Target Predictor](https://github.com/Hidaayet/crispr-off-target-predictor)** — Transformer encoder on GUIDE-seq guide/site pairs. AUC 0.971.
 ---
+## Get in Touch
 
-## Background
-
-- Higher Institute of Medical Technologies of Tunis (ISTMT): Engineer's degree in biomedical engineering, 2023 – expected 2027
-- Centre d'Etude Techniques de Maintenance Biomédicale et Hospitalière (Tunis): internship, June – October 2026
-- Hôpital Militaire Principal d'Instruction de Tunis: internship, June – July 2025
-- Centre de Traumatologie et des Grands Brûlés: internship, June – July 2024
-- UNESCO-SIGHT Ambassador 2026, IEEE ISTMT Student Branch
-
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/hidayet-allah-yaakoubi-5b1975391/) · [Email](mailto:enghideya@gmail.com)
+Building something interesting at the intersection of medical imaging, AI, and device regulation? Feel free to reach out: [enghideya@gmail.com](mailto:enghideya@gmail.com)
+---
+<p align="center">Updated October 2026</p>
