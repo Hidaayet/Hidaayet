@@ -1,3 +1,28 @@
+# Hidayet Allah Yaakoubi
+
+**Biomedical engineering student (expected 2028) · Medical imaging systems · AI for imaging · Device regulation & risk**
+Tunis, Tunisia
+
+I focus on medical imaging systems: how the devices acquire images, what those images represent, and how they are processed and checked. During hospital and biomedical-maintenance internships (2024–2026) I worked with imaging equipment. On top of that I build AI models for medical images, and I have completed training in EU MDR, ISO 13485 and ISO 14971.
+
+I report results the way a reviewer would want them: the dataset, the split and the limitations sit next to the number.
+
+---
+
+## Imaging projects
+
+| Project | What it does | Result | Status |
+|---|---|---|---|
+| [**Retinal Disease Detector**](https://github.com/Hidaayet/retinal-disease-detector) · [Live demo](https://huggingface.co/spaces/hidayet-yaakoubi/retinal-disease-detector) | Grades diabetic retinopathy (0–4) from fundus images with EfficientNet-B3, trained on APTOS 2019 (3,662 images) | QWK **0.9053**, accuracy **83.6%** on an internal validation split | Complete, deployed |
+| [**CT Organ Reconstruction**](https://github.com/Hidaayet/ct-organ-reconstruction) | HU thresholding → morphological cleanup → marching cubes → STL meshes of bone, lungs, liver and kidneys | Pipeline demo on a synthetic CT volume; DICOM loading shown on real data | Complete (demo) |
+
+**In progress:** CT quality-assurance drift monitoring (repository not yet public).
+
+### How to read these numbers
+
+**Retinal Disease Detector.** 80/20 stratified split of APTOS 2019 (2,929 train / 733 validation, seed 42). There is no separate test set and no cross-validation, and the best epoch (13 of 15) is reported on that same validation split, so treat the scores as optimistic and not comparable to the competition's private leaderboard. The weakest class is severe DR (F1 0.36, n = 39). This is a research project, not a medical device, and it has not been clinically validated.
+
+**CT Organ Reconstruction.** The reconstruction runs on a synthetic volume with threshold-based segmentation. No segmentation accuracy is reported, so this demonstrates the pipeline and not a validated method.
 
 ---
 
