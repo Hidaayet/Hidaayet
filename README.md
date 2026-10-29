@@ -1,7 +1,11 @@
 # Hidayet Allah Yaakoubi
 
 **Biomedical engineering student (expected 2028) · Medical imaging systems · AI for imaging · Device regulation & risk**
+<<<<<<< HEAD
 Tunis, Tunisia · [Portfolio](https://hidaayet.github.io/Hidayet_Yaakoubi.github.io/) · [LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
+=======
+Tunis, Tunisia
+>>>>>>> b26cd35d82653df4722d78c047bb4d9a90fcffa0
 
 I work on medical imaging systems end to end: how devices acquire images, what those images actually represent, and how they are processed and checked. Across hospital and biomedical-maintenance internships (2024–2026) I worked hands-on with imaging equipment; alongside that I build and evaluate AI models for medical images, and I've completed training in EU MDR, ISO 13485 and ISO 14971.
 
@@ -64,4 +68,8 @@ Also from coursework and labs: biomedical instrumentation, digital filtering and
 
 ## Contact
 
+<<<<<<< HEAD
 [Portfolio](https://hidaayet.github.io/Hidayet_Yaakoubi.github.io/) · [LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
+=======
+[LinkedIn](https://www.linkedin.com/in/hideya-allah-yaakoubi-5b1975391) · [Email](mailto:enghideya@gmail.com)
+>>>>>>> b26cd35d82653df4722d78c047bb4d9a90fcffa0
