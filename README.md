@@ -1,4 +1,4 @@
-# AI for medical imaging
+# AI engineer specializing in medical imaging and clinical/biomedical AI.
 
 <p align="center">
   <a href="https://hidaayet.github.io/Hidayet_Yaakoubi.github.io/"><img src="https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
